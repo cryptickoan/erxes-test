@@ -5,7 +5,7 @@ const ErxesAnalytics = () => (
     <Script
       async
       src={"https://guatemedica.app.erxes.io/widgets/build/messengerWidget.bundle.js"} 
-      id="lrHF17"
+      id="GEQE6C"
     ></Script>
     <Script
       id="erxes-analytics"
