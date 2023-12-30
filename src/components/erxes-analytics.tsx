@@ -11,6 +11,11 @@ const ErxesAnalytics = () => (
       id="erxes-analytics"
       dangerouslySetInnerHTML={{
         __html: `
+        window.erxesSettings = {
+            messenger: {
+              brand_id: "lrHF17",
+            },
+          }
             var script = document.createElement('script');
           script.src = "https://guatemedica.app.erxes.io/widgets/build/messengerWidget.bundle.js";
           script.async = true;
